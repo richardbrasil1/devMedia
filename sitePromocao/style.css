@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+a {
+    text-decoration: none;
+}
+
+span.buy-bottom {
+    background-color: rgb(34, 196, 34);
+    color: white;       
+    border-radius: 13%;
+    padding: 5px;
+}
+
+h1 {
+    color: blue;
+}
