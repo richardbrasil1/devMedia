@@ -11,6 +11,11 @@ div#sobre{
 div#resumo {
     border-bottom: 1px solid #d5d5d5;
 }
+div#autor{
+    
+    border-bottom: 1px solid #d5d5d5;        
+}
+
 h2{
     font-size: 24px;
 }
@@ -31,8 +36,6 @@ p {
 img {
     width: 190px;
 }
-
-
 
 a {
     font-size: 14px;
