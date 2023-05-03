@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    font-family: "Tahoma";
+}
+div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;  
+}
+p{
+    margin: 10px auto;
+    width: 980px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+}
+span{
+    font-weight: bold;
+}
+.secao-menu{
+    background-color: #afddfb;
+    
+}
+.secao-menu a {
+    font-size: 18px;
+    color: #1d1d1d;
+    border-bottom: 2px solid #1d1d1d;
+    text-decoration: none;
+    margin: 0px 10px; 
+}
+.img.logo{
+    width: 150px;
+}
+
+nav{
+    margin-top: 15px;
+    text-align: center;
+}
+#foto-faixada{
+    margin-top: 50px;
+    padding-top: 0px; 
+}
+.first-title{
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+#sobre h2{
+    color: #1c81c0;
+    margin-top: 0px;
+    font-weight: normal;
+}
+#sobre img{
+    width: 450px;
+}
+.paragrafo-sobre .texto-azul{
+    color: #1d80c1;
+    font-weight: bold;
+}
+
+#servicos{
+    background-color: #1d80c1;
+}
