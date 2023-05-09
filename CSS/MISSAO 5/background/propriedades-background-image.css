@@ -1,0 +1,23 @@
+/* Imagem sendo repetida para preencher o fundo do elemento. */
+body {
+    background-image: url('img/fundo-floresta.jpg');
+}
+
+/* A imagem não se repete. */
+body {
+    background-image: url('img/fundo-floresta.jpg');
+    background-repeat: no-repeat;
+    background-color: darkgreen;
+}
+
+/* Imagem sendo repetida horizontalmente. */
+body {
+    background-image: url('img/fundo-floresta.jpg');
+    background-repeat: repeat-x;
+}
+
+/* Imagem sendo repetida verticalmente. */
+body {
+    background-image: url('img/fundo-floresta.jpg');
+    background-repeat: repeat-y;
+}

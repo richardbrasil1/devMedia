@@ -1,0 +1,13 @@
+/* Ocupa todo espaço do elemento e exibe parte da imagem se for necessário */
+background-image{
+    background-size: cover;
+}
+
+/* Estica a imagem ao máximo possível exibindo a imagem por completo */
+background-size: contain;
+
+/* Define o percentual de largura e altura com relação ao elemento, que a imagem ocupará */
+background-size: 50% 70%;
+
+/* Define a largura e altura da imagem em píxel */
+background-size: 300px 150px;
