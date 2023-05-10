@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            display: inline;
+        }
+
+        .red {
+            background: red;
+            color: #fff;
+        }
+
+        .blue {
+            background: blue;
+            color: #fff;
+        }
+
+        span {
+            display: block;
+        }
+
+        /*img {
+            display: none;
+        }*/
+
+        /* oculta o elemento por completo da página*/
+
+        /*div {
+            visibility: visible;
+        } deixar o elemento visível
+
+        span {
+            visibility: hidden;
+        } ocultar o elemento, porém seu espaço fica vazio na tela*/
+
+        /* transparencia do elemento*/
+        div {
+            opacity: 100%;
+        }
+
+        span {
+            opacity: 50%;
+        }
+
+        img {
+            opacity: 45%;
+            max-width: 200px;
+            display: block;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="red">Essa é uma div vermelha</div>
+    <div class="blue">Essa é uma div com fundo azul</div>
+    <img src="img-cachorro.jpg" alt="Cachorro da Thay" class="dog">
+</body>
+
+</html>
