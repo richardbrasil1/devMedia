@@ -4,7 +4,9 @@
 }
 
 .limita-largura {
-    width: 1024px;
+    width: 100%;
+    min-width: 320px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
@@ -12,7 +14,7 @@
     width: 100%;
     padding: 16px 0;
     text-align: center;
-    background: #1d6e4d;
+    background: #ff8014;
     color: #fff;
     font-size: 20px;
 }
@@ -21,8 +23,17 @@ body {
     font-family: sans-serif;
 }
 
-.area {
+.apresentacao {
     width: calc(100% - 70px);
+    overflow-y: scroll;
+    height: 315px;
+}
+
+.galeria{
+    width: calc(100% - 70px);
+}
+
+.area {
     margin: 20px 35px;
 }
 
@@ -33,6 +44,7 @@ body {
 
 .area-tres-imagens {
     display: flex;
+    overflow-x: scroll;
 }
 
 .galeria img {
