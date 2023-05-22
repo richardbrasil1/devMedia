@@ -1,0 +1,37 @@
+img {
+    box-shadow: 10px 20px;
+}/**/
+img {
+    box-shadow: 10px 20px 30px;
+} /*Desfoque*/
+
+img {
+    box-shadow: 10px 20px 30px 40px;
+} /* quarto valor expansao para todos os lados*/
+
+
+/*ainda pode ser alterada a cor da sombra*/
+img {
+    box-shadow: 10px 20px 30px 40px blue;
+}
+
+img {
+    box-shadow: 10px 20px 30px 40px #ff0000;
+}
+
+img {
+    box-shadow: 10px 20px 30px 40px RGB(255, 0, 0);
+}
+
+/*atributo inset para incluir as bordas para dentro do elemento*/
+div {
+    box-shadow: 10px 20px 30px 40px #ff0000 inset;
+}
+
+div {
+    box-shadow: inset 10px 20px 30px 40px #ff0000;
+}
+
+/*Os valores de cor e o valor inset podem aparecer no início e no fim do box-shadow,
+mas nunca entre os valores numéricos de deslocamento,
+desfoque e expansão.*/
