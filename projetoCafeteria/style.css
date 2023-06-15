@@ -1,9 +1,15 @@
-header {
+/*GLOBAL EFFECTS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#inicio {
     background-color: #604829;
     position: fixed;
-    position: relative;
     width: 100%;
     height: 100px;
+    z-index: 1;
 
 }
 nav{
@@ -23,8 +29,9 @@ nav a{
     left: 15%;
 }
 #banner{
-    background: url(img/parallax-imagem1.png) fixed no-repeat;
-    position: relative;
+    background: url(img/parallax-imagem1.png) center fixed;
+    background-size: cover;
+    position: relative;    
     width: 100vw;
     height: 100vh;
 
@@ -37,8 +44,6 @@ nav a{
     top: 45%;
     left: 0;
     right: 0;
-
-
 }
 .white {
     color: #fff;
@@ -112,10 +117,14 @@ iframe {
 }
 
 #horarios{
-    background: url(img/cafeteria.jpg) fixed no-repeat;
-    position: relative;
+    background-image:url(img/cafeteria.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     height: 85vh;
-    width: 100vw;
+    width: 100%;
+    position: relative;
+    
 
 }
 
@@ -127,7 +136,7 @@ iframe {
     left: 0;
 }
 
-#horarios  .funcionamento{
+.funcionamento{
     position: absolute;
     width: 768px;
     bottom: 20%;
@@ -136,11 +145,37 @@ iframe {
 }
 li {
    position: relative;
+   list-style-type: none
+
 }
-li p {
+li .linhas{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    
+}
+li p, li span {
     position: absolute;
     top: 0;
     right: 0;
+}
+
+footer{
+    position: relative;
+    padding: 20px 0;
+    background-color: #000000;
+}
+footer p {
+    text-align: center;
+    color: #fff;
+}
+
+footer a {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 80px;
+    right: 50px;
 }
 
 
