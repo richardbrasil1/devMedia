@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topo {
+    padding: 35px 0px;
+    width: 1024px;
+    position: relative;
+}
+#banner {
+    padding: 180px 0px;
+    
+}
