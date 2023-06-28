@@ -1,0 +1,33 @@
+/*.container {
+        position: relative;
+}*/
+.card-um {
+    width: 400px;
+    height: 400px;
+    color: white;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);;
+}
+.card-dois {
+    width: 400px;
+    height: 400px;
+    color: white;
+    background: linear-gradient(90deg, rgba(209, 0, 0, 1) 0%, rgba(236, 98, 0, 1) 35%);;
+}
+.card-tres {
+    width: 400px;
+    height: 400px;
+    color: white;
+    background-color: green;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+button {
+    box-shadow: 0px 0px 15px black;
+    margin: 10px;
+}
