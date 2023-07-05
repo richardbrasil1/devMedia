@@ -1,0 +1,48 @@
+HTML CSSResult Skip Results Iframe EDIT ON @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+
+.container {
+    padding: 60px 30px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+/*.card-tres {
+    flex-grow: 2;
+}
+
+.card-cinco {
+    flex-grow: 3;
+}*/
+
+/* flex-grow = Essa propriedade indica como um elemento filho (o card) ocupará o espaço disponível,
+conforme a largura do container pai. No flow a seguir conheceremos mais sobre essa propriedade:
+
+acrescenta valores iguais aos componetes para prencher o container.
+*/
+
+
+/*
+    flex-shrink. Essa propriedade indica como um elemento filho (o card) terá seu tamanho reduzido para continuar a caber em um container. Acompanhe o próximo flow:
+*/

@@ -1,0 +1,71 @@
+.secao-produtos {
+    height: 350px;
+    background-color: black;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    justify-content: center;
+}
+
+.card-produto {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+/*
+    .container-flex-start {
+        … 
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .container-center {
+        … 
+        display: flex;
+        align-items: center;
+    }
+    
+    .container-flex-end {
+        … 
+        display: flex;
+        align-items: flex-end;
+    }
+
+
+        .container-stretch-center {
+            … display: flex;
+            align-items: stretch;
+            justify-content: center;
+        }
+    
+        .container-center-center {
+            … display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .container-center-space-between {
+            … display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        .container-center-space-around {
+            … display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+    
+        .container-center-space-evenly {
+            … display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+*/

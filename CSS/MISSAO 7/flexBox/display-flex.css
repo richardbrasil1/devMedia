@@ -114,6 +114,13 @@
     … display: flex;
     flex-wrap: wrap-reverse;
 }
+
+O GAP SERVE PARA CRIAR ESPAÇOS ENTRE OS ITENS DE UM CONTAINER
+
+EX: {
+    flex-wrap: wrap;
+    gap: 30px;
+}
 */
 
 
@@ -158,6 +165,46 @@ A propriedade flex-flow é uma abreviação de duas propriedades CSS: flex-direc
 .container-space-evenly {
     … display: flex;
     justify-content: space-evenly; - distribui os elementos com espaçamento igual no container
+}
+
+*/
+
+/* justify-content+flex-wrap
+
+    .container-wrap-flex-end {
+   …
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+   gap: 30px;
+}
+.container-wrap-center {
+   …
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 30px;
+}
+.container-wrap-space-between {
+   …
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 30px;
+}
+.container-wrap-space-around {
+   …
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   gap: 30px;
+}
+.container-wrap-space-evenly {
+   …
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   gap: 30px;
 }
 
 */
