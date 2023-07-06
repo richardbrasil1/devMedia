@@ -37,7 +37,7 @@ HTML CSSResult Skip Results Iframe EDIT ON @import url('https://fonts.googleapis
 }*/
 
 /* flex-grow = Essa propriedade indica como um elemento filho (o card) ocupará o espaço disponível,
-conforme a largura do container pai. No flow a seguir conheceremos mais sobre essa propriedade:
+conforme a largura do container pai.
 
 acrescenta valores iguais aos componetes para prencher o container.
 */
@@ -45,4 +45,27 @@ acrescenta valores iguais aos componetes para prencher o container.
 
 /*
     flex-shrink. Essa propriedade indica como um elemento filho (o card) terá seu tamanho reduzido para continuar a caber em um container. Acompanhe o próximo flow:
+
+    pra determinarmos que um card diminua mais que outro, porém essa propriedade é pouco utilizada no cotidiano front-end.
 */
+
+/*
+    flex-basis. Essa propriedade indica uma largura ou uma altura inicial para um elemento filho (o card), conforme o alinhamento do container. 
+    */
+
+    /*
+        flex é uma abreviação das propriedades: flex-grow, flex-shrink e flex-basis. 
+
+            .container-em-linha-sem-quebra-de-linha {
+                padding: 40px 20px 20px;
+                background-color: black;
+                display: flex;
+                }
+        
+           .card {
+                height: 200px;
+                background-color: white;                    
+                border: 1px solid gray;
+                flex: 1 1 auto;
+                }
+    */
