@@ -1,4 +1,4 @@
-HTML CSSResult Skip Results Iframe EDIT ON @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
     margin: 0;
@@ -13,7 +13,7 @@ HTML CSSResult Skip Results Iframe EDIT ON @import url('https://fonts.googleapis
     background-color: black;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 10px;    
 }
 
 .card {
@@ -26,6 +26,7 @@ HTML CSSResult Skip Results Iframe EDIT ON @import url('https://fonts.googleapis
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    
 }
 
 /*.card-tres {
