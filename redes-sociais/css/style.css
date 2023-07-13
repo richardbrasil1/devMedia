@@ -11,7 +11,7 @@ html, body {
     background-color: black;
 }
 body{
-    background: url('../img/fundo-madeira.jpg') no-repeat top center;
+    background: url('../img/background-space.png') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
