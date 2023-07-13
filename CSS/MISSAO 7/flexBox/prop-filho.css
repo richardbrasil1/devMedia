@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+
+.container {
+    padding: 60px 30px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;    
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    
+}
+
+/*.card-tres {
+    flex-grow: 2;
+}
+
+.card-cinco {
+    flex-grow: 3;
+}*/
+
+/* flex-grow = Essa propriedade indica como um elemento filho (o card) ocupará o espaço disponível,
+conforme a largura do container pai.
+
+acrescenta valores iguais aos componetes para prencher o container.
+*/
+
+
+/*
+    flex-shrink. Essa propriedade indica como um elemento filho (o card) terá seu tamanho reduzido para continuar a caber em um container. Acompanhe o próximo flow:
+
+    pra determinarmos que um card diminua mais que outro, porém essa propriedade é pouco utilizada no cotidiano front-end.
+*/
+
+/*
+    flex-basis. Essa propriedade indica uma largura ou uma altura inicial para um elemento filho (o card), conforme o alinhamento do container. 
+    */
+
+    /*
+        flex é uma abreviação das propriedades: flex-grow, flex-shrink e flex-basis. 
+
+            .container-em-linha-sem-quebra-de-linha {
+                padding: 40px 20px 20px;
+                background-color: black;
+                display: flex;
+                }
+        
+           .card {
+                height: 200px;
+                background-color: white;                    
+                border: 1px solid gray;
+                flex: 1 1 auto;
+                }
+    */

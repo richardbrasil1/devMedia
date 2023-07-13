@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.limitar-secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container-topo {
+    padding: 35px 0px;
+    position: relative;
+    background-color: #fff;
+}
+
+.topo-logo {
+    position: relative;
+}
+
+.topo-logo img {
+    width: 80px;
+}
+
+.topo-logo div {
+    position: absolute;
+    top: 0;
+    left: 95px;
+}
+
+.topo-logo p {
+    font-size: 16px;
+    color: #2f86d6;
+    font-weight: 600;
+}
+
+.topo-logo h1 {
+    font-size: 32px;
+    color: #000000;
+}
+
+.topo-links {
+    position: absolute;
+    top: 65px;
+    right: 0;
+}
+
+.topo-links a {
+    font-size: 18px;
+    padding: 0x 10px;
+    color: #233032;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#banner {
+    background-color: #2f86d6;
+}
+
+.container-banner {
+    padding: 180px 0px;
+    position: relative;
+}
+
+.container-banner div {
+    color: #fff;
+    width: 470px;
+
+}
+
+.container-banner div p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 26px;
+    word-spacing: 3px;
+}
+
+
+.container-banner div h2 {
+    font-size: 28px;
+    color: #fff;
+    line-height: 40px;
+    margin: 20px 0px;
+}
+
+.container-banner img {
+    width: 50%;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
+
+.primeiro-anuncio {
+    background-color: #233032;
+    color: #fff;
+}
+
+.container-primeiro-anuncio {
+    position: relative;
+    padding: 40px 0px;
+}
+
+.container-primeiro-anuncio div {
+    width: 600px;
+}
+
+.container-primeiro-anuncio h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.container-primeiro-anuncio p {
+    font-size: 16px;
+}
+
+.container-primeiro-anuncio a {
+    background-color: #2f86d6;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.container-primeiro-anuncio a img {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 20px;
+    margin-left: 20px;
+}
+
+.container-primeiro-anuncio a span {
+    margin-left: 30px;
+}
+
+#informacoes {
+    background-color: #fff;
+    color: #000000;
+    padding: 100px 0px;
+    text-align: center;
+
+}
+
+#informacoes h2 {
+    width: 900px;
+    font-size: 32px;
+    color: #000000;
+    margin: 0px auto 60px;
+}
+
+#informacoes h2 span {
+    color: #2f86d6;
+}
+
+.container-informacoes {
+    position: relative;
+    height: 240px;
+}
+
+.container-informacoes div {
+    width: 33%;
+    position: absolute;
+    top: 0;
+}
+
+.card2 {
+    left: 343px;
+}
+
+.card3 {
+    right: 0;
+}
+
+#informacoes h3 {
+    font-size: 16px;
+    color: #000000;
+}
+
+.container-informacoes div img {
+    width: 100px;
+}
+
+.titulo-azul {
+    color: #2f86d6;
+    font-size: 32px;
+}
+
+.container-informacoes div h3 {
+    margin: 20px;
+}
+
+#informacoes p {
+    font-size: 16px;
+    color: #000000;
+}
+
+#planos {
+    background-color: #f1f3f7;
+    padding: 100px 0px;
+}
+
+.secao-planos h2 {
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 32px;
+}
+
+.secao-planos h2 span {
+    color: #2f86d6;
+}
+
+table {
+    border-radius: 4px;
+    margin: auto;
+    box-shadow: 0px 2px 40px 15px rgba(47, 134, 214, 1);
+}
+
+table thead th {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #fff;
+}
+
+.tabela thead th h3 {
+    font-size: 20px;
+    color: #000000;
+}
+
+table thead th p {
+    max-width: 150px;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #a89f9f;
+    text-align: center;
+}
+
+table tbody td {
+    width: 250px;
+    max-width: 1024px;
+    text-align: center;
+    font-weight: 500;
+    padding: 15px;
+}
+
+table thead th img {
+    width: 100px;
+    margin: auto;
+}
+
+.par {
+    font-size: 16px;
+    background-color: #f1f3f7;
+}
+
+.impar {
+    font-size: 16px;
+    background: #f6f6f6;
+}
+
+
+.segundo-anuncio {
+    background-color: #2f86d6;
+}
+
+.container-segundo-anuncio {
+    position: relative;
+    padding: 40px 0;
+}
+
+.container-segundo-anuncio h2 {
+    color: #fff;
+    font-size: 24px;
+    width: 550px;
+}
+
+.container-segundo-anuncio a {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #233032;
+    color: #fff;
+    cursor: pointer;
+}
+.container-segundo-anuncio a img {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 20px;
+    margin-left: 20px;    
+}
+.container-segundo-anuncio a span {
+    margin-left: 30px;
+}
+
+#contato {
+    background-color: #fff;
+}
+.rodape-logo {
+    width: 320px;
+    position: relative;
+    margin: 70px auto 40px;
+}
+
+.rodape-logo img {
+    width: 80px;
+}
+
+.rodape-logo div {
+    position: absolute;
+    left: 95px;
+    top: 0;
+}
+
+.rodape-logo p {
+    color: #2f86d6;
+    font-weight: 600;
+}
+
+.container-contatos {
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container-copyright {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #f1f3f7;
+}
+.texto-azul {
+    font-size: 16px;
+    color: #2f86d6;
+}

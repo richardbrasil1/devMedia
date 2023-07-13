@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+
+.container {
+    padding: 40px 20px 20px;
+    background-color: black;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+       
+}
+
+.box1,.box2,.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.container-column-flex-end {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 40px 20px 20px;
+    background-color: black;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.container-column-center {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 40px 20px 20px;
+    background-color: black;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-column-space-between {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-column-space-around {
+    
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 40px 20px 20px;
+    background-color: black;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container-column-space-evenly {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+/*OPÇÕES DO FLEX DIRECTION
+
+.container-em-linha {
+    … display: flex;
+    flex-direction: row;
+}
+
+.container-em-coluna {
+    … display: flex;
+    flex-direction: column;
+}
+
+.container-em-linha-inversa {
+    … display: flex;
+    flex-direction: row-reverse;
+}
+
+.container-em-coluna-inversa {
+    … display: flex;
+    flex-direction: column-reverse;
+}
+
+
+*/
+
+/*OPCOES FLEX-WRAP
+
+.container-quebra-de-linha {
+    … display: flex;
+    flex-wrap: wrap;
+}
+
+.container-quebra-de-linha-reversa {
+    … display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+O GAP SERVE PARA CRIAR ESPAÇOS ENTRE OS ITENS DE UM CONTAINER
+
+EX: {
+    flex-wrap: wrap;
+    gap: 30px;
+}
+*/
+
+
+/*
+A propriedade flex-flow é uma abreviação de duas propriedades CSS: flex-direction e flex-wrap
+
+.container-em-linha-sem-quebra-de-linha {
+    … display: flex;
+    flex-flow: row nowrap;
+}
+
+.container-em-linha-com-quebra-de-linha {
+    … display: flex;
+    flex-flow: row wrap;
+}
+
+*/
+
+/*
+
+
+.container-flex-end {
+    … display: flex;
+    justify-content: flex-end; - alinha os elementos a direita
+}
+
+.container-center {
+    … display: flex;
+    justify-content: center; alinha os elementos no centro do container
+}
+
+.container-space-between {
+    … display: flex;
+    justify-content: space-between; - distribui os elementos no container
+}
+
+.container-space-around {
+    … display: flex;
+    justify-content: space-around; - distribui os elementos no container, adicionando uma margem
+}
+
+.container-space-evenly {
+    … display: flex;
+    justify-content: space-evenly; - distribui os elementos com espaçamento igual no container
+}
+
+*/
+
+/* justify-content+flex-wrap
+
+    .container-wrap-flex-end {
+   …
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+   gap: 30px;
+}
+.container-wrap-center {
+   …
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 30px;
+}
+.container-wrap-space-between {
+   …
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 30px;
+}
+.container-wrap-space-around {
+   …
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   gap: 30px;
+}
+.container-wrap-space-evenly {
+   …
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   gap: 30px;
+}
+
+*/
