@@ -1,0 +1,23 @@
+p: first-of-type {
+    color: red;
+}
+
+p: last-of-type {
+    color: red;
+}
+
+p: nth-of-type(2) {
+    color: red;
+}
+
+div:nth-of-type(4) {
+    background-color: #eb6565;
+}
+*/efeito zebrado/*
+div:nth-of-type(odd) {
+    background-color: #eb6565;
+}
+
+div:nth-of-type(even) {
+    background-color: #60c4ff;
+}
