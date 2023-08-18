@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes Pseudoclasses</title>
+    <style>
+        p{
+            color: white;
+            background-color: rgb(182, 103, 255);
+        }
+
+        div {
+            color: white;
+            background-color: aqua;
+        }
+
+        p:first-child{
+            font-weight: bold;
+            color: black;
+        }
+
+        div:first-of-type {
+            font-weight: bold;
+            color: red;
+        }
+        div:nth-child(4){
+            background-color: yellow;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <section>        
+        <div>Primeira Div</div>
+        <p>Primeiro parágrafo</p>        
+        <p>Segundo parágrafo</p>
+        <div>Segunda Div</div>
+    </section>
+
+</body>
+</html>
+
+<!-- Os tipos child devem ser utilizados quando queremos estilizar elementos caso eles estejam em posições específicas com base em seus elementos pai, por exemplo: estilizar um elemento somente se ele for o 2º parágrafo dentro de um elemento pai, ou a primeira imagem dentro de um elemento pai.-->

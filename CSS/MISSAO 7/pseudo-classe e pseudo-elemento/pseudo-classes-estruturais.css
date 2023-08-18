@@ -6,7 +6,7 @@ p: last-of-type {
     color: red;
 }
 
-p: nth-of-type(2) {
+p:nth-of-type(2) {
     color: red;
 }
 
